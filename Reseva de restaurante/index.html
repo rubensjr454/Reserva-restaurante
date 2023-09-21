@@ -7,7 +7,9 @@
     <title>Restaurante</title>
 
     <!-- Icones -->
-    <link rel="stylesheet" href="assets/fonts/style.css" />
+    <link rel="stylesheet" href="/assets/fonts/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
     <!---SWIPER-->
 
@@ -17,7 +19,7 @@
 />
 
     <!-- STYLES -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style/home.css" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -32,7 +34,7 @@
   <body>
     <header id="header">
       <nav class="container">
-        <a class="logo" href="#">Res<span>taurante</span>.</a>
+        <a class="logo" href="#">Restaurante.</a>
         <!-- menu -->
         <div class="menu">
           <ul class="grid">
@@ -42,8 +44,6 @@
           </ul>
         </div>
         <!-- /menu -->
-        <div class="toggle icon-menu"></div>
-        <div class="toggle icon-close"></div>
       </nav>
     </header>
 
@@ -53,7 +53,7 @@
         <div class="container grid">
           <div class="image">
             <img
-              src="/assets/Img.svg"
+              src="/assets/img/Img.svg"
               alt="Mulher sorrindo enquanto cozinha"
             />
           </div>
@@ -73,7 +73,7 @@
           <div class="container grid">
             <div class="image">
               <img
-                src="/assets/sobre-nos.svg"
+                src="/assets/img/sobre-nos.svg"
                 alt="3 mulheres sorrindo"
               />
             </div>
@@ -106,7 +106,7 @@
         <div class="divider-2"></div>
 
            <!-- RESERVAS -->
-<section class="section" id="contact">
+<section class="section" id="reserva">
   <div class="container grid">
 
 <div class="text">
@@ -115,7 +115,9 @@
   <a href="#"
    class= "button"
    target="_blank"
-   ><i class="icon-whatsapp"> Fazer reserva </i></a>
+   ><i class="material-icons">
+    table_restaurant
+    </i> Fazer reserva</a>
 </div>
 
 
@@ -153,7 +155,6 @@
           <i class="icon-instagram"></i></a>
         <a href="https://facebook.com" target="_blank">
           <i class="icon-facebook"></i></a>
-        <a href="https//youtube.com" target="_blank"><i class="icon-youtube"></i></a>
       </div>
       
       </footer>
@@ -162,15 +163,7 @@
 
       <i class="icon-arrow-up"></i></a>
 
-    <!---swiper--->
-
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-
-<!------SCROLL------->
-
-<script src="https://unpkg.com/scrollreveal"></script>
-
     <!-----main.js-->
-    <script src="main.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
